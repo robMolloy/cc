@@ -4,14 +4,9 @@
 <html>
 <head>
 	<?php echo getHeadTags('Home');?>
-	
-	<script type="text/javascript">
-		
-	</script>
-	
 </head>
 
-<body onload="loadHeaderBarContents();loadLoginHtml();">
+<body onload="loadHeaderBarContents();">
 	<header></header>
 
 	<div id="content">

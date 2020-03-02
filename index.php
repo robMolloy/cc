@@ -4,14 +4,9 @@
 <html>
 <head>
 	<?php echo getHeadTags('Pull Ups');?>
-	
-	<script type="text/javascript">
-		
-	</script>
-	
 </head>
 
-<body onload="loadHeaderBarContents();loadProgress();">
+<body onload="loadIndexPage();">
 	<header></header>
 
 	<div id="content">
@@ -19,8 +14,9 @@
 			<div class="wrapperMain" id="wrapperMain">
 			</div>
 		</main>
-		<div id="responseLogIcon" onclick="toggleResponseLog()">
-		</div>
+		
+		<div id="responseLogIcon" onclick="toggleResponseLog()"></div>
+		<div id="timerIcon" onclick="toggleTimerPanel()"></div>
 	</div>
 
 	<footer>bye	</footer>

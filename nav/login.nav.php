@@ -14,5 +14,10 @@ switch($nav){
 		$usr = new user(getUserId());
 		echo $usr->submitLogout();
 	break;
+	
+	case 'logUserOut':
+		$usr = new user(getUserId());
+		echo $usr->submitLogout();
+	break;
 }
 ?>

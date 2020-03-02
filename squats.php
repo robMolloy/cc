@@ -4,11 +4,6 @@
 <html>
 <head>
 	<?php echo getHeadTags('Squats');?>
-	
-	<script type="text/javascript">
-		
-	</script>
-	
 </head>
 
 <body onload="loadHeaderBarContents();loadWorkoutChecklist('squats');">

@@ -14,3 +14,7 @@ function appendAboveNthPanelInWrapperMain(params={}){
 	if(position=='last'){appendToWrapperMain(html);}
 	else{allPanels[position].insertAdjacentHTML('beforeBegin',html);}
 }
+
+function clearWrapperMain(){
+	document.getElementById('wrapperMain').innerHTML = '';
+}

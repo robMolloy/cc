@@ -80,5 +80,5 @@ function ucFirstOfEachWord(str){
 }
 
 function formatStringForUrl(str,filetype='php'){
-	return `${str.replace(/ /g, "-")}.${filetype}`;
+	return `${str.replace(/ /g, "-")}${filetype=='' ? '' : '.'}${filetype}`;
 }

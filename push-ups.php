@@ -3,12 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php echo getHeadTags('Pull Ups');?>
-	
-	<script type="text/javascript">
-		
-	</script>
-	
+	<?php echo getHeadTags('Push Ups');?>
 </head>
 
 <body onload="loadHeaderBarContents();loadWorkoutChecklist('push ups');">
